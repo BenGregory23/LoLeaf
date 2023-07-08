@@ -13,11 +13,7 @@ interface state {
   current: number
 }
 
-interface music {
-  name: string,
-  musicId: string,
-  image: string
-}
+
 
 
 
