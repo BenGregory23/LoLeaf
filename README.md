@@ -1,5 +1,7 @@
 # Music 
 
+
+![banner](https://github.com/BenGregory23/music/blob/main/src/assets/music_banner.png?raw=true)
 ![alt text](https://github.com/BenGregory23/music/blob/main/src/assets/image.png?raw=true)
 
 ## Description
