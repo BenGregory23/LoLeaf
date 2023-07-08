@@ -1,4 +1,4 @@
-# Music 
+# LoLeaf
 
 
 ![banner](https://github.com/BenGregory23/music/blob/main/src/assets/music_banner.png?raw=true)
