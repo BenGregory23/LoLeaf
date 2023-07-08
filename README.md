@@ -1,6 +1,6 @@
 # Music 
 
-
+![alt text](https://github.com/BenGregory23/music/blob/main/src/assets/image.png?raw=true)
 ### List of songs I like to listen to while coding
 
 
