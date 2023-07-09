@@ -77,6 +77,9 @@ const Music = (props:{name:string,musicId:string, image:string}) => {
         
         fetchVideoDuration();
 
+        setCurrentTime(0);
+        
+
         
         
 
