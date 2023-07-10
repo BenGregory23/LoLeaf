@@ -138,6 +138,9 @@ make the music component appear in the middle of the screen
 }
 
 
+
+
+
 @media screen and (max-width: 768px){
     .music{
         padding: 0;
@@ -185,6 +188,8 @@ make the music component appear in the middle of the screen
     }
 }
   
+
+
 
 
 

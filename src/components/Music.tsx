@@ -78,7 +78,7 @@ const Music = (props:{name:string,musicId:string, image:string}) => {
         fetchVideoDuration();
 
         setCurrentTime(0);
-        
+
 
         
         
@@ -119,12 +119,22 @@ const Music = (props:{name:string,musicId:string, image:string}) => {
 
             <Youtube id='youtube' videoId={props.musicId} 
             opts={{
-                height: '0',
+                // make it the same size as the background image
+
                 width: '0',
+                height: '0',
+                
+                
+
                 playerVars: {
                     autoplay: 1,
+                   
+                  
+
                 },
             }}
+
+            className='youtube-player'
           
             />
 
