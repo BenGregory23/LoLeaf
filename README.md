@@ -8,6 +8,7 @@
 
 Simple web app that I use to play music when I work. I wanted to have a simple interface without any disturbance. 
 
+[Check it out!](https://flourishing-chebakia-bb4d05.netlify.app/)
 
 ## Installation
 
