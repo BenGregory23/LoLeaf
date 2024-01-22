@@ -55,7 +55,7 @@ const Music = ({ music, setDuration, setTimer }) => {
 
   return (
     <div className="flex justify-center items-center absolute top-0 left-0 h-screen w-screen z-1">
-      <img src={music.image} className="rounded-md w-72 h-72 object-cover" />
+      <img src={music.image} className="rounded-md w-80 h-80 object-cover" />
       <img
         src={music.image}
         className="w-full h-full absolute top-0 left-0 blur-md -z-50 opacity-97"

@@ -608,6 +608,10 @@ video {
   height: 100vh;
 }
 
+.h-80 {
+  height: 20rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -634,6 +638,10 @@ video {
 
 .w-screen {
   width: 100vw;
+}
+
+.w-80 {
+  width: 20rem;
 }
 
 .flex-col {
