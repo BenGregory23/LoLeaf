@@ -3,11 +3,6 @@ import { useState, useEffect } from "react";
 import Youtube from "react-youtube";
 
 const Music = ({ music, setDuration, setTimer }) => {
-
-
-
-  
-
   const fetchVideoDuration = () => {
     const apiKey = "AIzaSyAvZRV0g5K43qALbQdp9Zy5NW1VQ-Bq18I";
 
@@ -37,16 +32,12 @@ const Music = ({ music, setDuration, setTimer }) => {
       .catch((err) => console.log(err));
   };
 
-
-
-  
-
   useEffect(() => {
     const player = document.getElementById("youtube") as HTMLIFrameElement;
     player.contentWindow?.postMessage(
-        `{"event":"command","func":"seekTo","args":[${0},true]}`,
-        "*"
-      );
+      `{"event":"command","func":"seekTo","args":[${0},true]}`,
+      "*"
+    );
 
     fetchVideoDuration();
 
@@ -76,8 +67,6 @@ const Music = ({ music, setDuration, setTimer }) => {
         }}
         className="bg-red-300"
       />
-
- 
     </div>
   );
 };
