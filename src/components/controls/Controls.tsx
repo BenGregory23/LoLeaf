@@ -12,7 +12,7 @@ const Controls = ({
 }) => {
   useEffect(() => {
     const interval = setInterval(() => {
-        console.log(timer)
+      console.log(timer);
       if (!isPlaying) return;
       setTimer(Number(timer + 1));
     }, 1000);
